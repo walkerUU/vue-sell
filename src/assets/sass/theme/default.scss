@@ -1,0 +1,227 @@
+@import "../color.scss";
+
+// action-sheet
+$action-sheet-color : $color-grey !default;
+$action-sheet-active-color : $color-orange !default;
+$action-sheet-bgc : $color-white !default;
+$action-sheet-active-bgc : $color-light-grey-opacity !default;
+$action-sheet-title-color : $color-dark-grey !default;
+$action-sheet-space-bgc : $color-mask-bg !default;
+/// picker style
+$action-sheet-picker-cancel-color : $color-light-grey !default;
+$action-sheet-picker-cancel-active-color : $color-light-grey-s !default;
+
+// bubble
+
+// button
+$btn-color : $color-white !default;
+$btn-bgc : $color-regular-blue !default;
+$btn-active-bgc : $color-blue !default;
+/// primary
+$btn-primary-color : $color-white !default;
+$btn-primary-bgc : $color-orange !default;
+$btn-primary-active-bgc : $color-dark-orange !default;
+/// light
+$btn-light-color : $color-grey !default;
+$btn-light-bgc : $color-light-grey-sss !default;
+$btn-light-active-bgc : $color-active-grey !default;
+/// outline
+$btn-outline-color : $color-grey !default;
+$btn-outline-bgc : transparent !default;
+$btn-outline-bdc : $color-grey !default;
+$btn-outline-active-bgc : $color-grey-opacity !default;
+$btn-outline-active-bdc : $color-grey !default;
+/// outline-primary
+$btn-outline-primary-color : $color-orange !default;
+$btn-outline-primary-bgc : transparent !default;
+$btn-outline-primary-bdc : $color-orange !default;
+$btn-outline-primary-active-bgc : $color-orange-opacity !default;
+$btn-outline-primary-active-bdc : $color-dark-orange !default;
+/// disabled
+$btn-disabled-color : $color-white !default;
+$btn-disabled-bgc : $color-light-grey-s !default;
+$btn-disabled-bdc : $color-light-grey-s !default;
+
+// toolbar
+$toolbar-bgc : $color-light-grey-sss !default;
+$toolbar-active-bgc : $color-active-grey !default;
+
+// checkbox
+$checkbox-color : $color-grey !default;
+$checkbox-icon-color : $color-light-grey-s !default;
+/// checked
+$checkbox-checked-icon-color : $color-orange !default;
+$checkbox-checked-icon-bgc : $color-white !default;
+/// disabled
+$checkbox-disabled-icon-color : $color-light-grey-ss !default;
+$checkbox-disabled-icon-bgc : $color-light-grey-ss !default;
+// checkbox hollow
+$checkbox-hollow-checked-icon-color : $color-orange !default;
+$checkbox-hollow-disabled-icon-color : $color-light-grey-ss !default;
+// checkbox-group
+$checkbox-group-bgc : $color-white !default;
+$checkbox-group-horizontal-bdc : $color-light-grey-s !default;
+
+// radio
+$radio-group-bgc : $color-white !default;
+$radio-group-horizontal-bdc : $color-light-grey-s !default;
+$radio-color : $color-grey !default;
+$radio-icon-color : $color-light-grey-s !default;
+/// selected
+$radio-selected-icon-color : $color-white !default;
+$radio-selected-icon-bgc : $color-orange !default;
+/// disabled
+$radio-disabled-icon-bgc : $color-light-grey-ss !default;
+// radio hollow
+$radio-hollow-selected-icon-color : $color-orange !default;
+$radio-hollow-disabled-icon-color : $color-light-grey-ss !default;
+
+//checker
+$checker-item-color : $color-grey !default;
+$checker-item-bdc : $color-light-grey-sss !default;
+$checker-item-bgc : $color-white !default;
+$checker-item-active-color : $color-orange !default;
+$checker-item-active-bdc : $color-orange !default;
+$checker-item-active-bgc : $color-light-orange-opacity !default;
+$checker-item-disabled-color : $color-light-grey-s !default;
+$checker-item-disabled-bdc : $color-light-grey-s !default;
+$checker-item-disabled-bgc : $color-light-grey-ss !default;
+
+// dialog
+$dialog-color : $color-grey !default;
+$dialog-bgc : $color-white !default;
+$dialog-icon-color : $color-regular-blue !default;
+$dialog-icon-bgc : $color-background !default;
+$dialog-title-color : $color-dark-grey !default;
+$dialog-close-color : $color-light-grey !default;
+$dialog-btn-color : $color-light-grey !default;
+$dialog-btn-bgc : $color-white !default;
+$dialog-btn-active-bgc : $color-light-grey-opacity !default;
+$dialog-btn-highlight-color : $color-orange !default;
+$dialog-btn-highlight-active-bgc : $color-light-orange-opacity !default;
+$dialog-btn-disabled-color : $color-light-grey !default;
+$dialog-btn-disabled-active-bgc : transparent !default;
+$dialog-btns-split-color : $color-row-line !default;
+
+// index-list
+$index-list-bgc : $color-white !default;
+$index-list-title-color : $color-dark-grey !default;
+$index-list-anchor-color : $color-light-grey !default;
+$index-list-anchor-bgc : #f7f7f7 !default;
+$index-list-item-color : $color-dark-grey !default;
+$index-list-item-active-bgc : $color-light-grey-opacity !default;
+$index-list-nav-color : $color-grey !default;
+$index-list-nav-active-color : $color-orange !default;
+
+// loading
+
+// picker
+$picker-bgc : $color-white !default;
+$picker-title-color : $color-dark-grey !default;
+$picker-subtitle-color : $color-light-grey !default;
+$picker-confirm-btn-color : $color-orange !default;
+$picker-confirm-btn-active-color : $color-light-orange !default;
+$picker-cancel-btn-color : $color-light-grey !default;
+$picker-cancel-btn-active-color : $color-light-grey-s !default;
+$picker-item-color : $color-dark-grey !default;
+
+// popup
+$popup-mask-bgc : rgb(37, 38, 45) !default;
+$popup-mask-opacity : .4 !default;
+
+//scroll
+
+// slide
+$slide-dot-bgc : $color-light-grey-s !default;
+$slide-dot-active-bgc : $color-orange !default;
+
+// time-picker
+
+// tip
+$tip-color : $color-white !default;
+$tip-bgc : $color-dark-grey-opacity !default;
+
+// toast
+$toast-color : $color-light-grey-s !default;
+$toast-bgc : rgba(37, 38, 45, 0.9) !default;
+
+// upload
+$upload-btn-color : $color-grey !default;
+$upload-btn-bgc : $color-white !default;
+$upload-btn-active-bgc : $color-light-grey-opacity !default;
+$upload-btn-box-shadow : 0 0 6px 2px $color-grey-opacity !default;
+$upload-btn-border-color : #e5e5e5 !default;
+$upload-file-bgc : $color-white !default;
+$upload-file-remove-color : rgba(0, 0, 0, .8) !default;
+$upload-file-remove-bgc : $color-white !default;
+$upload-file-state-bgc : $color-mask-bg !default;
+$upload-file-success-color : $color-orange !default;
+$upload-file-error-color : #f43530 !default;
+$upload-file-status-bgc : $color-white !default;
+$upload-file-progress-color : $color-white !default;
+
+// switch
+$switch-on-bgc : $color-orange !default;
+$switch-off-bgc : $color-white !default;
+$switch-off-border-color : #e4e4e4 !default;
+
+// input
+$input-color : $color-grey !default;
+$input-bgc : $color-white !default;
+$input-border-color : $color-row-line !default;
+$input-focus-border-color : $color-orange !default;
+$input-placeholder-color : $color-light-grey-s !default;
+$input-clear-icon-color : $color-light-grey !default;
+
+//textarea
+$textarea-color : $color-grey !default;
+$textarea-bgc : $color-white !default;
+$textarea-border-color : $color-row-line !default;
+$textarea-focus-border-color : $color-orange !default;
+$textarea-outline-color : $color-orange !default;
+$textarea-placeholder-color : $color-light-grey-s !default;
+$textarea-indicator-color : $color-light-grey-s !default;
+
+// validator
+$validator-msg-def-color : #e64340 !default;
+
+// select
+$select-color : $color-grey !default;
+$select-bgc : $color-white !default;
+$select-disabled-color : #b8b8b8 !default;
+$select-disabled-bgc : $color-light-grey-opacity !default;
+$select-border-color : $color-light-grey-s !default;
+$select-border-active-color : $color-orange !default;
+$select-icon-color : $color-light-grey !default;
+$select-placeholder-color : $color-light-grey-s !default;
+
+// swipe
+$swipe-btn-color : $color-white !default;
+
+// form
+$form-color : $color-grey !default;
+$form-bgc : $color-white !default;
+$form-invalid-color : #e64340 !default;
+$form-group-legend-color : $color-light-grey !default;
+$form-group-legend-bgc : $color-background !default;
+$form-label-required-color : #e64340 !default;
+
+// drawer
+$drawer-color : $color-dark-grey !default;
+$drawer-title-bdc : $color-light-grey-ss !default;
+$drawer-title-bgc : $color-white !default;
+$drawer-panel-bgc : $color-white !default;
+$drawer-item-active-bgc : $color-light-grey-opacity !default;
+
+// scroll-nav
+$scroll-nav-bgc : $color-white !default;
+$scroll-nav-color : $color-grey !default;
+$scroll-nav-active-color : $color-orange !default;
+
+// image-preview
+$image-preview-counter-color : $color-white !default;
+
+// tab-bar & tab-panel
+$tab-color : $color-grey !default;
+$tab-active-color : $color-dark-orange !default;
+$tab-slider-bgc : $color-dark-orange !default;
