@@ -44,6 +44,7 @@ module.exports = {
     }
   },
   publicPath: process.env.NODE_ENV === 'production' ? './' : '/',
+  baseUrl: '',
   chainWebpack: config => {
     config.resolve.alias
       // .set('@', path.join(__dirname, './src'))
